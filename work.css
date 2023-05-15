@@ -1,0 +1,40 @@
+body
+{
+  background-color: rgba(29,29,29);
+}
+h1
+{
+  font-size: 2.1rem;
+  line-height: 1.4;
+  letter-spacing: 0.5rem;
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+}
+.maindiv
+{
+  width: 70%;
+  height: 400px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) ;
+  background-image: url(images/1-e1507916198561-scaled.jpg);
+  background-size: 100% 100%;
+  box-shadow: 1px 2px 10px 5px white;
+  animation:slider 30s infinite linear;
+}
+
+@keyframes slider{
+  0%{ background-image: url(images/1-e1507916198561-scaled.jpg); }
+  10%{ background-image: url(images/3.jpg); }
+  20%{ background-image: url(images/Adrian-Flux-Motorsport-e1546707189414.jpg); }
+  30%{ background-image: url(images/2-scaled.jpg); }
+  40%{ background-image: url(images/Am-I-Responsive-1-1-e1546707655795.jpg); }
+  50%{ background-image: url(images/Bez-nazwy-2.jpg); }
+  60%{ background-image: url(images/Bez-nazwy-3.jpg); }
+  70%{ background-image: url(images/Adrian-Flux-Motorsport-1.jpg); }
+  80%{ background-image: url(images/DECHOX-Killer-Creative-e1574676621251-scaled.jpg); }
+  90%{ background-image: url(images/Employers-ProjectSet-e1574678139657-scaled.jpg); }
+  100%{ background-image: url(images/london-block-2.jpg); }
+}
